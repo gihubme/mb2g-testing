@@ -1,5 +1,5 @@
-# Apache Maven: Beginner to Guru
+## SpotBugs is a program which uses static analysis to look for bugs in Java code
 
-This respository contains code examples for the online course [Apache Maven: Beginner to Guru.](https://www.udemy.com/draft/2043700/?couponCode=GITHUB_REPO)
-
-## Testing Java with Maven Examples
+Links:
+[github](https://github.com/spotbugs/spotbugs)
+[docs](https://spotbugs.readthedocs.io/en/stable/maven.html)
