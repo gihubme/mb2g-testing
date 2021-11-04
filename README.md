@@ -1,5 +1,5 @@
 # Apache Maven: Beginner to Guru
 
-This respository contains code examples for the online course [Apache Maven: Beginner to Guru.](https://www.udemy.com/draft/2043700/?couponCode=GITHUB_REPO)
+Code Coverage Reports for Unit and Integration Tests With [the JaCoCo Maven Plugin](https://www.petrikainulainen.net/programming/maven/creating-code-coverage-reports-for-unit-and-integration-tests-with-the-jacoco-maven-plugin/)
 
-## Testing Java with Maven Examples
+[Intro to JaCoCo](https://www.baeldung.com/jacoco)
