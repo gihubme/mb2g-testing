@@ -12,7 +12,8 @@ class JavaHelloWorldSpecTest extends Specification {
 
         when:
         def foo = "123"
-
+        JavaHelloWorld javaH = new JavaHelloWorld()
+        println javaH.hello
         then:
         true
     }
