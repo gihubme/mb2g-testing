@@ -1,4 +1,4 @@
-# Apache Maven: Beginner to Guru
+### Junit5 and CodeCoverage
 
 Code Coverage Reports for Unit and Integration Tests With [the JaCoCo Maven Plugin](https://www.petrikainulainen.net/programming/maven/creating-code-coverage-reports-for-unit-and-integration-tests-with-the-jacoco-maven-plugin/)
 
