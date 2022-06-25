@@ -28,12 +28,14 @@ jobs:
       - run:
           name: Install packagecloud CLI
           command: |
-            UNIQUE_ID="`hostname -f`-nikakar-mvnrelease"
+            UNIQUE_ID="`hostname -f`-mvnrelease"
             echo "here PACKAGECLOUD_TOKEN $PACKAGECLOUD_TOKEN"
             echo "here PW $PW"
             echo "here GIHUBME_PWD $GIHUBME_PWD"
-#            gem install package_cloud
-
+            echo "here MASTER_TOKEN_MVNRELEASE $MASTER_TOKEN_MVNRELEASE"
+            TOKEN_URL=https://$PW:@packagecloud.io/api/v1/repos/nikakar/mvnrelease/master_tokens/$MASTER_TOKEN_MVNRELEASE/read_tokens.json
+            echo "here TOKEN_URL $TOKEN_URL"
+            curl -s https://packagecloud.io/install/repositories/nikakar/mvnrelease/script.deb.sh | sudo bash
       # 1. Download and cache dependencies
       - restore_cache:
           keys:
